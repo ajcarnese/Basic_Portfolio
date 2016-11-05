@@ -94,7 +94,7 @@ p {
     text-align: center;
     border-style: groove;
     top: 38px;
-    height: 324px;
+    height: 200px;
     left: 65px;
     background-color: white;
 }
@@ -144,7 +144,7 @@ color: #4aaaa5;
     text-align: center;
     border-style: groove;
     top: 121px;
-    height: 324px;
+    height: 200px;
     left: 670px;
     background-color: white;
 }
@@ -171,4 +171,14 @@ display: inline-block;
     background-color: #666666;
     color: white;
     font-size: 10px;
+}
+
+#collage {
+    width: 60%;
+    float: left;
+    position: relative;
+    top: 50px;
+    border-style: groove;
+    background-color: white;
+
 }
