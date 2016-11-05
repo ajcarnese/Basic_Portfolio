@@ -148,3 +148,27 @@ color: #4aaaa5;
     left: 670px;
     background-color: white;
 }
+
+.floated_img {
+/*    float: left;*/
+display: inline-block;
+  width: 200px;
+  height:200px;
+  zoom: 1;         /* for IE */
+  display*:inline; /* for IE */
+}
+
+#port_foot {
+    text-align: center;
+    font-style: italic;
+    position: fixed;
+    margin-bottom: 0px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    top: 670px;
+    width: 960px;
+    border: groove;
+    padding: 30px;
+    background-color: #666666;
+    color: white;
+    font-size: 10px;
+}
